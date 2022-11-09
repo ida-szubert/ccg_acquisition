@@ -1,0 +1,7 @@
+.idea/*
+*.pyc
+.idea/langacq.iml
+my_test/*
+my_test_31:3/*
+.DS_Store
+

@@ -1,0 +1,31 @@
+Sent: you 're going to feed the pigeons .
+Sem: lambda $0_{r}.aux|~be_2(part|go-presp_3(pro:per|you_1,lambda $1_{r}.v|feed_5(pro:per|you_1,det:art|the_6($2,n|pigeon-pl_7($2)),$1),$0),$0)
+example_end
+
+Sent: what happened to your finger ?
+Sem: lambda $1_{e}.lambda $0_{r}.and(v|happen-past_2($1,$0),prep|to_3(det:poss|your_4($2,n|finger_5($2)),$0))
+example_end
+
+Sent: a cord .
+Sem: det:art|a_1($0,n|cord_2($0))
+example_end
+
+Sent: you do it .
+Sem: lambda $0_{r}.v|do_2(pro:per|you_1,pro:per|it_3,$0)
+example_end
+
+Sent: where 're you going to put the light ?
+Sem: lambda $3_{<r,t>}.lambda $0_{r}.aux|~be_2(and(part|go-presp_4(pro:per|you_3,lambda $1_{r}.v|put-zero_6(pro:per|you_3,det:art|the_7($2,n|light_8($2)),$1),$0),$3($0)),$0)
+example_end
+
+Sent: I 'll hold it while you screw .
+Sem: lambda $0_{r}.conj|while_5(v|screw_7(pro:per|you_6,$0),mod|~will_2(v|hold_3(pro:sub|i_1,pro:per|it_4,$0),$0))
+example_end
+
+Sent: well I don 't think they 'd like the shell .
+Sem: lambda $0_{r}.and(not(mod|do_3(v|think_5(pro:sub|i_2,lambda $1_{r}.mod|~genmod_7(prep|like_8(pro:sub|they_6,det:art|the_9($2,n|shell_10($2)),$1),$1),$0),$0),$0),co|well_1($0))
+example_end
+
+Sent: if a carpenter knocks what does a plumber do ?
+Sem: lambda $3_{e}.lambda $0_{r}.v|do-3s_6(conj|if_1(v|knock-3s_4(det:art|a_2($1,n|carpenter_3($1)),$0),v|do_9(det:art|a_7($2,n|plumber_8($2)),$3,$0)),$0)
+example_end

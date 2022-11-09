@@ -1,0 +1,16 @@
+Sent: oh you managed to get it .
+Sem: lambda $0_{r}.and(v|manage-past_3(pro:per|you_2,lambda $1_{r}.v|get_5(pro:per|you_2,pro:per|it_6,$1),$0),co|oh_1($0))
+example_end
+
+Sent: you managed .
+Sem: lambda $0_{r}.v|manage-past_2(pro:per|you_1,$0)
+example_end
+
+Sent: were you a pirate too ?
+Sem: lambda $0_{r}.Q(det:art|a_3(post|too_5(pro:per|you_2),n|pirate_4(post|too_5(pro:per|you_2),$0)))
+example_end
+
+Sent: he was a tiger ?
+Sem: lambda $0_{r}.Q(det:art|a_3(pro:sub|he_1,n|tiger_4(pro:sub|he_1,$0)))
+example_end
+
